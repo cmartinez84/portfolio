@@ -5,7 +5,7 @@ body{
   background-attachment: fixed;
  }
 
-h1,h2,ol,li, p{
+h3, h1,h2,ol,li, p{
   color: white;
   font-family: helvetica;
   font-size: 1.2em;
@@ -79,4 +79,8 @@ ol{
 .glyphicon{
   color: white;
   font-size: 4em;
+}
+.foodpic{
+  max-height: 200px;
+  padding: 15px;
 }
