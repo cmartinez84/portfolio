@@ -1,16 +1,34 @@
-h1,h2,p{
+body{
+  background-color: black;
+  background: url('../img/background5.jpg') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+
+h1,h2,ol,li, p{
   color: white;
   font-family: helvetica;
+  font-size: 1.2em;
+}
+h2{
+  margin-bottom: 60px;
+}
+ul{
+  list-style: none !important;
+}
+ol{
+  text-align: left;
 }
 
 #main{
   max-width: 1000px;
   text-align: center;
-  width: 75%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 35px;
+  /*width: 75%;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
   background-color: rgba(155, 0, 0, 0.3);
-  padding: 40px;
+  padding: 60px;
 }
 #main > div{
     margin-bottom: 100%;
@@ -23,13 +41,7 @@ h1,h2,p{
 
 }
 
-body{
-  background-color: black;
-  background: url('../img/background5.jpg') center center no-repeat;
-  background-position: fixed;
-  background-size:  100% auto;
-  background-attachment: fixed;
- }
+
 
  #headername, h2{
    font-family: 'Bungee Shade';
@@ -39,7 +51,7 @@ body{
    color:  white;
    font-size: 8em;
    text-align: center;
-   margin-top: 150px;
+   margin-top: 65px;px;
  }
 #welcome{
     font-family: "bungee hairline";
@@ -61,3 +73,10 @@ body{
 .img-responsive {
     margin: 0 auto;
 }    /*allows centering*/
+.colleges{
+  font-size: 3em:
+}
+.glyphicon{
+  color: white;
+  font-size: 4em;
+}
