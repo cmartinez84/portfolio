@@ -1,0 +1,63 @@
+h1,h2,p{
+  color: white;
+  font-family: helvetica;
+}
+
+#main{
+  max-width: 1000px;
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(155, 0, 0, 0.3);
+  padding: 40px;
+}
+#main > div{
+    margin-bottom: 100%;
+  }
+#main p{
+    text-align: left;
+}
+.blank {
+  display: rgba(0, 0, 0, 0.0);
+
+}
+
+body{
+  background-color: black;
+  background: url('../img/background5.jpg') center center no-repeat;
+  background-position: fixed;
+  background-size:  100% auto;
+  background-attachment: fixed;
+ }
+
+ #headername, h2{
+   font-family: 'Bungee Shade';
+   font-size: 4em;
+ }
+#headername{
+   color:  white;
+   font-size: 8em;
+   text-align: center;
+   margin-top: 150px;
+ }
+#welcome{
+    font-family: "bungee hairline";
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+}
+#facepic{
+  border-radius: 50%;
+
+}
+#facepic   {
+  text-align: center;
+  max-width: 250px;
+  border: 30px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.img-responsive {
+    margin: 0 auto;
+}    /*allows centering*/
