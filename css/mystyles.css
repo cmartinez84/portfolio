@@ -1,3 +1,4 @@
+/*body, fonts, basic styles applied across page*/
 body{
   background-color: black;
   background: url('../img/background5.jpg') center center no-repeat;
@@ -5,14 +6,20 @@ body{
   background-attachment: fixed;
  }
 
-
 h3, h1,h2,ol,li, p{
   color: white;
-  font-family: helvetica;
+  font-family: "arial";
   font-size: 1.2em;
 }
 h2{
   margin-bottom: 60px;
+  font-size: 3em;
+  font-weight: bold;
+}
+h3{
+  font-family: "bungee hairline";
+  font-weight: bold;
+  font-size: 2em;
 }
 ul{
   list-style: none !important;
@@ -24,27 +31,31 @@ h1, h2, h3{
   max-width: 100%;
 }
 
+li a{
+  font-family: "bungee hairline";
+  font-weight: bold;
+}
+/*navbar*/
+
 #main{
   max-width: 1000px;
   text-align: center;
   margin-top: 35px;
+  /*overridden by bootstrap styling. may come back to this method*/
   /*width: 75%;*/
   /*margin-left: auto;
   margin-right: auto;*/
   background-color: rgba(155, 0, 0, 0.3);
   padding: 60px;
 }
+/*main content*/
+
 #main > div{
     margin-bottom: 100%;
   }
 #main p{
     text-align: left;
 }
-.blank {
-  display: rgba(0, 0, 0, 0.0);
-
-}
-
 
 
  #headername, h2{
@@ -56,6 +67,7 @@ h1, h2, h3{
    font-size: 80px;
    text-align: center;
    margin-top: 65px;
+   padding-top: 30px;
  }
 #welcome{
     font-family: "bungee hairline";
@@ -87,4 +99,14 @@ h1, h2, h3{
 .foodpic{
   max-height: 200px;
   padding: 15px;
+}
+h2 a .glyphicon{
+  font-size: 1em;;
+}
+h2 a .glyphicon:hover{
+  color: rgba(255, 0, 0, 0.4);
+}
+
+.nav li:hover {
+  background: rgba(255, 0, 0, 0.4);
 }

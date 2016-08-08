@@ -2,7 +2,7 @@
 #Cristobal Martinez's Portfolio!
 
 #### Portfolio project for Portfolio (how meta)
-#### By Cristobal Martinez 08.05.16
+#### By Cristobal Martinez
 
 ## Description
 *this is a Portfolio project created with HTML and CSS for Cristobal Martinez. The Page is a work in progress and will be built up as new skills are learned.
@@ -12,6 +12,8 @@
 *clone repository to desktop
 *open html in any browser
 *give feedback, if so inclined
+*alternatively, sit can be viewed at
+https://cmartinez84.github.io/portfolio/
 
 ## Known Bugs
 
