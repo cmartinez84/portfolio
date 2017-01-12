@@ -16,7 +16,7 @@ h2{
   font-size: 3em;
   font-weight: bold;
 }
-h3 a{
+a h3{
   font-family: "bungee hairline";
   font-weight: bold;
   font-size: 2em;
@@ -122,7 +122,13 @@ h2 a .glyphicon:hover{
 }
 .preview{
   max-width: 100%;
+  border-radius: 9px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px white;
   /*max-height: 120px;*/
   /*overflow: hidden;*/
-
+}
+.project:hover{
+  border-radius: 9px;
+  background: rgba(10, 10, 10, 0.6);
 }
